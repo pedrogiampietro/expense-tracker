@@ -6,7 +6,7 @@ export function App() {
       <C.Header>
         <C.HeaderText>Sistema Financeiro</C.HeaderText>
       </C.Header>
-      <C.Body>...Body</C.Body>
+      <C.Body></C.Body>
     </C.Container>
   );
 }
