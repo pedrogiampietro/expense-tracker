@@ -1,7 +1,12 @@
+import * as C from './App.styles';
+
 export function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-    </div>
+    <C.Container>
+      <C.Header>
+        <C.HeaderText>Sistema Financeiro</C.HeaderText>
+      </C.Header>
+      <C.Body>...Body</C.Body>
+    </C.Container>
   );
 }
